@@ -9,3 +9,43 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+
+.card-container {
+    box-sizing: border-box;
+    border: dotted 1px #CCC; 
+    width: 30vh;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.card-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.card-title {
+    margin: 0; 
+    padding: 15px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.card-content {
+    margin: 0;
+    padding: 15px;
+}
+
+.card-button {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+
+
+
+
