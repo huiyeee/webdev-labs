@@ -1,0 +1,32 @@
+<div class="restaurant-card">
+    <div class="card-top">
+        <p class="card-header">{{ restaurant.get('name') }}</p>
+    </div>
+    
+    <div class="card-mid">
+        <img class="card-pic"src={{ restaurant.get('image_url') }} />
+    </div>
+
+    <div class="card-bottom">
+        <div class="card-bottom-1">
+            <p class="address">{{ restaurant.get('display_address') }}</p>
+        </div>
+
+        <div class="card-bottom-2">
+            <div class="feature">
+                <p class="feature-header">Price:</p>
+                <p class="feature-value">{{ restaurant.get('price') }}</p>
+            </div>
+
+            <div class="feature">
+                <p class="feature-header">Rating:</p>
+                <p class="feature-value">{{ restaurant.get('rating') }}</p>
+            </div>
+
+            <div class="feature">
+                <p class="feature-header">#Reviews:</p>
+                <p class="feature-value">{{ restaurant.get('review_count') }}</p>
+            </div>
+        </div>
+    </div>
+</div>
