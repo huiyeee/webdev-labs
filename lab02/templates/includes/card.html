@@ -1,6 +1,6 @@
 <div class="restaurant-card">
     <div class="card-top">
-        <p class="card-header">{{ restaurant.get('name') }}</p>
+        <p class="card-header" tabindex="0">{{ restaurant.get('name') }}</p>
     </div>
     
     <div class="card-mid">
@@ -9,23 +9,23 @@
 
     <div class="card-bottom">
         <div class="card-bottom-1">
-            <p class="address">{{ restaurant.get('display_address') }}</p>
+            <p class="address" tabindex="0">{{ restaurant.get('display_address') }}</p>
         </div>
 
         <div class="card-bottom-2">
             <div class="feature">
-                <p class="feature-header">Price:</p>
-                <p class="feature-value">{{ restaurant.get('price') }}</p>
+                <p class="feature-header" tabindex="0">Price:</p>
+                <p class="feature-value" tabindex="0">{{ restaurant.get('price') }}</p>
             </div>
 
             <div class="feature">
-                <p class="feature-header">Rating:</p>
-                <p class="feature-value">{{ restaurant.get('rating') }}</p>
+                <p class="feature-header" tabindex="0">Rating:</p>
+                <p class="feature-value" tabindex="0">{{ restaurant.get('rating') }}</p>
             </div>
 
             <div class="feature">
-                <p class="feature-header">#Reviews:</p>
-                <p class="feature-value">{{ restaurant.get('review_count') }}</p>
+                <p class="feature-header" tabindex="0">#Reviews:</p>
+                <p class="feature-value" tabindex="0">{{ restaurant.get('review_count') }}</p>
             </div>
         </div>
     </div>
